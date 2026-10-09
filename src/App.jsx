@@ -1,10 +1,10 @@
 import "./App.css";
-import Noise from "./components/Noise";
+import Noise from "../libs/components/Noise";
 
 function App() {
   return (
     <>
-      <Noise opacity={0.2} size={1} scanlines={0.35} />
+      <Noise fixed opacity={0.2} size={1} scanlines={0.35} />
 
       <main className="page-shell">
         <section id="body">
