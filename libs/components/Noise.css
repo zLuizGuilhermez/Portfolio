@@ -1,3 +1,4 @@
+
 .noise {
   position: absolute;
   inset: 0;
@@ -26,11 +27,17 @@
 .noise__lines {
   position: absolute;
   inset: 0;
-  background-image: repeating-linear-gradient(
+  pointer-events: none;
+
+  background-image: linear-gradient(
     to bottom,
-    rgba(0, 0, 0, 0.55) 0,
-    rgba(0, 0, 0, 0.55) 1px,
-    transparent 1px,
-    transparent 3px
+    transparent 0px,
+    transparent 4px,
+    rgba(0, 0, 0, 0.4) 4px,
+    rgba(0, 0, 0, 0.4) 6px
   );
+
+  background-size: 100% 6px;
+  background-repeat: repeat;
+  background-position: 0 0;
 }
