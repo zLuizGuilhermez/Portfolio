@@ -1,6 +1,7 @@
 import "./Home.css";
 
 import Noise from "../../libs/components/Noise";
+import Hologram from "../components/Hologram/Hologram";
 
 function Home() {
   return (
@@ -53,8 +54,18 @@ function Home() {
           <div class="soft-horizon twin-clean" aria-hidden="true">
             <span class="beam beam-a"></span>
           </div>
+
+          
           <div className="subtitle-container">
-            <p className="subtitle">Desenvolvedor Web</p>
+            <Hologram 
+            tipo="Web"
+            />
+            <Hologram 
+            tipo="Data"
+            />
+            <Hologram 
+            tipo="Web"
+            />
           </div>
         </div>
       </main>

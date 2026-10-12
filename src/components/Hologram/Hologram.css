@@ -1,0 +1,82 @@
+.hologram-container {
+  position: relative;
+  width: 185px;
+  height: 260px;
+  border: 1px solid #c084fc;
+  border-color: var(--color-pp);
+  background: linear-gradient(
+    140deg,
+    rgba(139, 92, 246, 0.12),
+    rgba(76, 29, 149, 0.03)
+  );
+  box-shadow:
+    0 0 20px rgba(139, 92, 246, 0.15),
+    inset 0 0 25px rgba(167, 139, 250, 0.06);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hologram-line{
+    position: relative;
+    width: 90%;
+    height: 90%;
+}
+
+.corner {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+}
+
+.corner-top-left {
+  top: 0;
+  left: 0;
+  border-top: 1px solid #c084fc;
+  border-left: 1px solid #c084fc;
+}
+
+.corner-top-right {
+  top: 0;
+  right: 0;
+  border-top: 1px solid #c084fc;
+  border-right: 1px solid #c084fc;
+}
+
+.corner-bottom-left {
+  bottom: 0;
+  left: 0;
+  border-bottom: 1px solid #c084fc;
+  border-left: 1px solid #c084fc;
+}
+
+.corner-bottom-right {
+  right: 0;
+  bottom: 0;
+  border-bottom: 1px solid #c084fc;
+  border-right: 1px solid #c084fc;
+}
+
+.hologram-content{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100%;
+  gap: 50px;
+}
+
+.hologram-title{
+  color: #999;
+}
+
+.hologram-logo{
+  width: 50px;
+  height: 50px;
+}
+
+.hologram-logo-img{
+  width: 100%;
+  height: 100%;
+}

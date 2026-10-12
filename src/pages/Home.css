@@ -4,6 +4,11 @@
 :root {
   --color-pp: rgba(163, 6, 236, 0.7);
 }
+
+::selection {
+  background: var(--color-pp);
+  color: #fff;
+}
 body {
   margin: 0;
   background-color: #0a0a0a;
@@ -58,6 +63,9 @@ body {
   display: flex;
   width: 100%;
   gap: 1rem;
+  align-items: center;
+  justify-content: center;
+
 }
 
 .link-container {
